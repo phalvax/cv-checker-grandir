@@ -1,0 +1,15 @@
+﻿fastapi
+uvicorn
+pymupdf
+pandas
+unidecode
+pillow
+sqlalchemy
+requests
+faker
+reportlab
+pytesseract
+pdf2image
+opencv-python-headless
+openpyxl
+xlrd

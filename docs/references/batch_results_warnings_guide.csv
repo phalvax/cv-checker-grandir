@@ -1,0 +1,16 @@
+﻿warning_code,description,action_recommandee
+missing_email,Aucun email detecte dans le CV,Verifier le document source ou contacter le candidat
+email_suspect,Email detecte mais format peu fiable,Verifier la ligne email du CV
+missing_phone,Aucun telephone detecte dans le CV,Verifier le document source ou contacter le candidat
+phone_suspect,Telephone detecte mais format peu fiable,Verifier la ligne telephone du CV
+missing_name,Nom ou prenom non detecte de facon fiable,Verifier le bloc identite du CV
+name_suspect,Nom ou prenom detecte mais peu fiable,Verifier la ligne d identite en tete du CV
+missing_address,Aucune adresse fiable detectee,Verifier les pages scannees et relancer OCR
+address_suspect,Adresse detectee mais invalide ou ambigue,Verifier la zone adresse du CV
+missing_zip,Adresse detectee sans code postal fiable,Verifier le code postal du candidat
+missing_zip_in_address,Adresse detectee sans code postal a 5 chiffres,Verifier la ligne adresse et le code postal
+address_no_digits,Adresse detectee sans chiffre,Verifier que l adresse n a pas ete confondue avec une phrase
+missing_role_core_keywords,Mots cles coeur du profil metier non detectes,Passer en revue les competences metier du CV
+missing_role_required_keywords,Couverture faible des mots cles requis,Comparer le CV au profil de poste
+missing_experience_evidence,Experience non chiffrable automatiquement,Verifier les periodes d experience manuellement
+insufficient_experience_for_role,Experience detectee inferieure au seuil du profil,Evaluer adequation selon les regles RH

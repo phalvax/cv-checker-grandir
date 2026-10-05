@@ -1,0 +1,35 @@
+﻿.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS / editors
+.DS_Store
+Thumbs.db
+
+# Python artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime outputs
+outputs/latest/
+outputs/batch_history/
+outputs/analyses/
+
+# Local databases
+data/db/*.db
+
+# Synthetic generated data (heavy)
+data/cv/generated/latest/
+
+# Temporary legacy folder kept only if a DB file is locked by another process
+cv_checker/
+
+# Never versioned: CVs, business data, outputs, deliverables
+data/
+outputs/
+deliverables/
+*.pdf
+.env

@@ -1,0 +1,15 @@
+column,type,description,valeurs_possibles,exemple
+file,string,Nom du PDF traite,Nom de fichier,syn_0001_hard_scan_grid.pdf
+score,float,Score global combine mots cles et adequation profil,0.00 a 100.00,67.85
+decision,string,Decision automatique de preselection,shortlist|review|reject,review
+ocr_used,boolean,Indique si OCR a ete utilise pour enrichir le texte,True|False,True
+text_length,integer,Longueur du texte final analyse apres fusion OCR,Entier positif,4821
+first_name,string,Prenom detecte du candidat,Texte ou vide,Marie
+last_name,string,Nom detecte du candidat,Texte ou vide,DUPONT
+email,string,Email detecte et normalise,Format email ou vide,marie.dupont@gmail.com
+phone,string,Telephone detecte normalise FR,10 chiffres FR ou vide,0612345678
+address,string,Adresse brute post-traitee,Texte ou vide,"12 rue Victor Hugo, 75010 Paris"
+best_profile,string,Profil metier le plus proche selon job_profiles.json,Nom de profil,Auxiliaire petite enfance
+profile_score,float,Score d adequation pour le profil retenu,0.00 a 100.00,74.50
+experience_years,integer,Annees d experience detectees a partir des periodes/indices,Entier ou vide,4
+warnings,string,Alertes concatenees avec separateur |,Codes warning ou vide,"missing_name|missing_address"
