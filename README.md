@@ -1,8 +1,8 @@
-# 📄 CV Checker — automated CV screening for Grandir
+# 📄 CV Checker — automated CV screening for Grandir Groupe
 
 > Read incoming PDF CVs, extract candidate information, score them against job profiles and flag what a recruiter must double-check.
 
-**Company project (GOAL programme) with Grandir · February 2026**
+**Company project (GOAL programme) for Grandir Groupe · February 2026**
 
 > No CV, business data or output is versioned — test it with the synthetic CV generator.
 
@@ -37,4 +37,4 @@ User guide: [`docs/GUIDE_UTILISATION_OUTIL_CV.md`](docs/GUIDE_UTILISATION_OUTIL_
 ---
 
 ### 🇫🇷 En bref
-Outil de présélection de CV pour Grandir (fév. 2026) : lecture de CV PDF (avec OCR si besoin), extraction des informations candidat, score par rapport à des fiches métier, alertes à vérifier, API FastAPI, traitement par lots et générateur de CV synthétiques pour tester sans données réelles. Aucun CV ni donnée publiés : test avec le générateur de CV synthétiques.
+Outil de présélection de CV pour Grandir Groupe (fév. 2026) : lecture de CV PDF (avec OCR si besoin), extraction des informations candidat, score par rapport à des fiches métier, alertes à vérifier, API FastAPI, traitement par lots et générateur de CV synthétiques pour tester sans données réelles. Aucun CV ni donnée publiés : test avec le générateur de CV synthétiques.
